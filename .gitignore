@@ -1,0 +1,12 @@
+app/webroot/files/documents/*
+app/webroot/files/import_media/*
+app/webroot/files/import_products/*
+app/webroot/files/pdf/*
+app/webroot/files/products/*
+app/webroot/files/TEMP_IMPORT_MEDIA/*
+app/webroot/files/tinymce/*
+app/webroot/files/xlsx/*
+app/Log/*
+app/tmp/cache/models/*
+app/tmp/cache/persistent/*
+tmp/*
