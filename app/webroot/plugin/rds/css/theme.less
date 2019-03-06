@@ -1,0 +1,123 @@
+@import 'base.less';
+@import 'variables.less';
+
+ul {margin:0}
+
+table.table {
+  .smaller {font-size:0.9em}
+  .nowrap {white-space:nowrap}
+  .center {text-align:center}
+  
+  margin:0;
+  th {
+    text-transform:capitalize;
+    &.date {.smaller; .nowrap}
+    &.boolean {.center}
+  }
+  td {
+    vertical-align:middle !important;
+    &.date {.smaller; .nowrap}
+    &.email {.nowrap}
+    &.boolean {.center}
+    &.actions {text-align:right; white-space:nowrap}
+  }
+}
+
+.actions {
+  .list-group {
+    a {
+      &:first-of-type {border-top:0}
+    }
+  }
+}
+
+.input {
+  > label::first-letter {
+    text-transform:uppercase;
+  }
+  &.date {
+    .display {
+      .form-control[readonly] {background-color:lighten(@color-primary, 45%)}
+    }
+    .wrapper {
+      .picker-container {
+        .picker {
+          border-color:@color-primary; border-radius:@border-radius;
+          .days {
+            td {
+              &.active {
+                > div {border-color:@color-primary}
+              }
+              > div {
+                border-radius:@border-radius;
+                &:hover {border-color:#888888}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.single-image {
+    &.filled {
+      .image {
+        &:after {display:none}
+      }
+      .delete {display:block}
+    }
+    .wrapper {width:102px; position:relative}
+    .image {
+      display:table-cell; position:relative; padding:0; width:102px; height:102px; border:1px solid #dddddd; border-radius:@border-radius; overflow:hidden;
+      &:after {content:'\f03e'; position:absolute; left:0; right:0; top:0; bottom:0; margin:auto; width:30px; height:30px;
+        font-family:FontAwesome; font-size:30px; opacity:0.5}
+    }
+    .delete {
+      display:none; position:absolute; right:-12px; top:-12px; background:none; border:0; font-size:0; z-index:999;
+      &:after {content:'\f057'; font-family:FontAwesome; font-size:24px}
+    }
+  }
+}
+
+.form-control {
+  background-color:lighten(@color-primary, 45%);
+  &.form-error {background-color:lighten(#a94442, 50%)}
+}
+
+.checkbox {
+  input[type=checkbox] {position:static; margin:0; vertical-align:middle}
+  label {padding-left:1em; vertical-align:middle}
+}
+
+.error-message {margin-top:5px; color:#a94442}
+
+[rds-tree] {
+  [rds-tree-root] {
+    .branch-name {
+      padding-bottom:5px;
+      &:after {.clear-both}
+      &:hover {color:@color-primary}
+    }
+    .leaf {
+      padding-bottom:5px;
+      &:after {.clear-both}
+      &:hover {color:@color-primary}
+    }
+    .btn-group {float:right}
+  }
+  [rds-tree-branch-cart] {
+    .branch-name {
+      padding-bottom:5px;
+      &:after {.clear-both}
+      &:hover {color:@color-primary}
+    }
+    .btn-group {float:right}
+  }
+  [rds-tree-leaf-cart] {
+    .leaf {
+      padding-bottom:5px;
+      &:after {.clear-both}
+      &:hover {color:@color-primary}
+    }
+    .btn-group {float:right}
+  }
+}
