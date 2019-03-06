@@ -1,0 +1,1 @@
+<div rds-flash rds-flash-key="<?php echo $key; ?>" rds-flash-type="<?php if (isset($type)) echo $type; ?>" rds-flash-message="<?php echo htmlentities($message); ?>"></div>

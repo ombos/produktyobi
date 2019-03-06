@@ -1,0 +1,1 @@
+<iframe src="<?php echo $this->webroot; ?>js/lib/mosaico/index.html" width="100%" height="99%" frameborder="0"></iframe>

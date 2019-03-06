@@ -1,0 +1,5 @@
+<div class="navigation iconav clearfix">
+	<?php echo $this->Authorize->link('<i class="fa fa-folder-open"></i><span>'.__('Projekty'), array('controller' => 'projects', 'action' => 'index'), array('escape' => false, 'class' => $this->Display->currentAction('projects', 'index'))); ?>
+	<?php echo $this->Authorize->link('<i class="fa fa-bars"></i><span>'.__('Lista zamówień'), array('controller' => 'orders', 'action' => 'index'), array('escape' => false, 'class' => $this->Display->currentAction('orders', 'index'))); ?>
+	<?php echo $this->Authorize->link('<i class="fa fa-download" aria-hidden="true"></i><span>'.__('Import artykułów z CSV'), array('controller' => 'orders', 'action' => 'import_articles'), array('escape' => false, 'class' => $this->Display->currentAction('orders', 'import_articles'))); ?>
+</div>

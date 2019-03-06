@@ -1,0 +1,1208 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-09-17 18:28+0200\n"
+"PO-Revision-Date: 2015-09-17 18:29+0200\n"
+"Last-Translator: \n"
+"Language-Team: EMAIL@ADDRESS\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#: Controller/AccessAccountsController.php:68
+#: Controller/ArchitectsController.php:154;174
+#: Controller/LinkProjectComponentsController.php:57
+#: Controller/OrdersController.php:127;164
+#: Controller/PanoramasController.php:48 Controller/ProfileController.php:54
+#: Controller/ProjectsController.php:102
+#: Controller/SlideshowProjectComponentsController.php:149
+#: Controller/SupportTicketsController.php:176;213
+#: Controller/UsersController.php:210 Controller/Walk3dsController.php:59
+msgid "Data has been saved successfully."
+msgstr ""
+
+#: Controller/AccessAccountsController.php:105
+msgid "Access account has been added successfully."
+msgstr ""
+
+#: Controller/ArchitectsController.php:127
+msgid "Your account has been activated successfully."
+msgstr ""
+
+#: Controller/ArchitectsController.php:136
+msgid "This is not a valid activation link."
+msgstr ""
+
+#: Controller/FbxImportController.php:44
+#: Controller/SlideshowProjectComponentsController.php:92
+msgid "Wystąpił błąd w zapisie pliku."
+msgstr ""
+
+#: Controller/InvoicesController.php:68;130
+msgid "invoice generated"
+msgstr ""
+
+#: Controller/OrdersController.php:108
+#: Controller/SupportTicketsController.php:157
+msgid "Ticket is closed successfully."
+msgstr ""
+
+#: Controller/OrdersController.php:126;163
+#: Controller/SupportTicketsController.php:175;212
+msgid "Message sent. Data has been saved successfully."
+msgstr ""
+
+#: Controller/PlansController.php:93
+msgid "plan has been created successfully."
+msgstr ""
+
+#: Controller/PlansController.php:127
+msgid "plan has been saved successfully."
+msgstr ""
+
+#: Controller/ProfileController.php:109
+#: View/Users/public_reset_password_success.ctp:3
+msgid "Your password has been changed successfully."
+msgstr ""
+
+#: Controller/ProfileController.php:112 Controller/UsersController.php:84;174
+msgid "This is not a valid link."
+msgstr ""
+
+#: Controller/SlideshowProjectComponentsController.php:91
+msgid "Wystąpił błąd w zapisie do bazy danych."
+msgstr ""
+
+#: Controller/SurveysController.php:342
+msgid "Answer has been sent successfully."
+msgstr ""
+
+#: Controller/SurveysController.php:344
+msgid "Answer has been saved successfully."
+msgstr ""
+
+#: Controller/UsersController.php:104
+msgid "Your email or password was incorrect."
+msgstr ""
+
+#: Controller/UsersController.php:257
+msgid "An email has been sent to the user's email address."
+msgstr ""
+
+#: Controller/Component/EmailComponent.php:25
+msgid "Registration"
+msgstr ""
+
+#: Controller/Component/EmailComponent.php:42
+msgid "You have been invited"
+msgstr ""
+
+#: Controller/Component/EmailComponent.php:58
+#: View/Emails/html/user_reset_password.ctp:1
+msgid "Password reset"
+msgstr ""
+
+#: Controller/Component/EmailComponent.php:74
+#: View/Emails/html/profile_change_password.ctp:1
+msgid "Password change"
+msgstr ""
+
+#: Lib/Consts.php:9
+msgid "An error has occurred!"
+msgstr ""
+
+#: Model/AccessAccount.php:21;41
+msgid "Enter login"
+msgstr ""
+
+#: Model/AccessAccount.php:25;45
+msgid "This login is being already used"
+msgstr ""
+
+#: Model/AccessAccount.php:32;52 Model/User.php:21;28;65;72;121;128;195;202
+msgid "Password must be equal or longer than %d characters"
+msgstr ""
+
+#: Model/AppModel.php:13
+msgid "An error has occurred. Please, try again"
+msgstr ""
+
+#: Model/Architect.php:30
+msgid "Choose account type"
+msgstr ""
+
+#: Model/Architect.php:34
+msgid "Invalid account type"
+msgstr ""
+
+#: Model/Architect.php:41;55
+msgid "Account name cannot be empty"
+msgstr ""
+
+#: Model/Architect.php:47;61
+msgid "Invalid country"
+msgstr ""
+
+#: Model/Architect.php:68
+msgid "Alias cannot be empty"
+msgstr ""
+
+#: Model/Architect.php:72
+msgid "This alias is being already used by someone else"
+msgstr ""
+
+#: Model/Architect.php:79
+msgid "address cannot be empty"
+msgstr ""
+
+#: Model/Architect.php:85
+msgid "nip cannot be empty"
+msgstr ""
+
+#: Model/Architect.php:91
+msgid "phone cannot be empty"
+msgstr ""
+
+#: Model/Company.php:20;33
+msgid "Company name cannot be empty"
+msgstr ""
+
+#: Model/Invoice.php:21
+msgid "nip number of company cannot be empty"
+msgstr ""
+
+#: Model/Invoice.php:29
+msgid "customer name cannot be empty"
+msgstr ""
+
+#: Model/Invoice.php:37
+msgid "company address cannot be empty"
+msgstr ""
+
+#: Model/Invoice.php:45
+msgid "invoice type should be selected"
+msgstr ""
+
+#: Model/LinkProjectComponent.php:21
+msgid "Url cannot be empty"
+msgstr ""
+
+#: Model/Location.php:69 Model/Project.php:27;51
+#: Model/ProjectComponent.php:25;39
+msgid "Name cannot be empty"
+msgstr ""
+
+#: Model/Location.php:79 Model/Project.php:41 View/Templates/locations.ctp:17
+msgid "Add image"
+msgstr ""
+
+#: Model/Location.php:89
+msgid "Add file"
+msgstr ""
+
+#: Model/Plan.php:21;71
+msgid "interval is not selected"
+msgstr ""
+
+#: Model/Plan.php:29;53;79;103
+msgid "price brutto cannot be empty"
+msgstr ""
+
+#: Model/Plan.php:37;87
+msgid "price netto cannot be empty"
+msgstr ""
+
+#: Model/Plan.php:45;95
+msgid "price VAT cannot be empty"
+msgstr ""
+
+#: Model/Plan.php:61;111
+msgid "name cannot be empty"
+msgstr ""
+
+#: Model/Project.php:31;55
+msgid "This name is already taken"
+msgstr ""
+
+#: Model/ProjectComponent.php:31
+msgid "Type of component must be selected"
+msgstr ""
+
+#: Model/SlideshowProjectComponent.php:22
+msgid "Invalid image"
+msgstr ""
+
+#: Model/SupportTicket.php:21;35
+msgid "category cannot be empty"
+msgstr ""
+
+#: Model/SupportTicket.php:27;41 Model/Survey.php:20;34
+msgid "title cannot be empty"
+msgstr ""
+
+#: Model/SupportTicketMessage.php:19;27
+msgid "message cannot be empty"
+msgstr ""
+
+#: Model/Survey.php:26;40
+msgid "type cannot be empty"
+msgstr ""
+
+#: Model/User.php:32;76;132;206
+msgid "Passwords do not match"
+msgstr ""
+
+#: Model/User.php:40;182
+msgid "Display name cannot be empty"
+msgstr ""
+
+#: Model/User.php:44;186
+msgid "This display name is already taken"
+msgstr ""
+
+#: Model/User.php:54;90;108;154
+msgid "Email address is not valid"
+msgstr ""
+
+#: Model/User.php:58;158
+msgid "User with this email address already exists"
+msgstr ""
+
+#: Model/User.php:86
+msgid "Enter your email address"
+msgstr ""
+
+#: Model/User.php:98
+msgid "Enter your password"
+msgstr ""
+
+#: Model/User.php:112
+msgid "Email address was not found"
+msgstr ""
+
+#: Model/User.php:142;168
+msgid "Choose user role"
+msgstr ""
+
+#: Model/User.php:146;172
+msgid "Invalid user role"
+msgstr ""
+
+#: Plugin/Highcharts/Controller/Component/HighchartsComponent.php:95
+msgid "Please provide a type for chart %s!"
+msgstr ""
+
+#: Plugin/Highcharts/View/Helper/HighchartsHelper.php:111
+msgid ""
+"Chart: \"%s\" could not be found. Ensure that Chart Name is the same string "
+"that is passed to $this->Highcharts->render() in your view."
+msgstr ""
+
+#: Plugin/Highcharts/View/Layouts/chart.demo.ctp:20
+msgid "CakePHP Highcharts plugin demos / tests"
+msgstr ""
+
+#: Plugin/Highcharts/View/Layouts/chart.demo.ctp:36
+msgid "Highcharts Plugin Demos / Tests"
+msgstr ""
+
+#: Plugin/Highcharts/View/Layouts/chart.demo.ctp:62
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: View/AccessAccounts/add.ctp:14 View/AccessAccounts/index.ctp:70
+msgid "login"
+msgstr ""
+
+#: View/AccessAccounts/add.ctp:18 View/AccessAccounts/index.ctp:75
+#: View/Architects/public_register.ctp:43 View/Elements/header_public.ctp:52
+#: View/Users/public_login.ctp:12 View/Users/public_register.ctp:17
+msgid "password"
+msgstr ""
+
+#: View/AccessAccounts/add.ctp:19 View/Invoices/add.ctp:121
+#: View/Plans/add.ctp:21 View/Surveys/add.ctp:46
+msgid "add"
+msgstr ""
+
+#: View/AccessAccounts/index.ctp:8
+msgid "Tak"
+msgstr ""
+
+#: View/AccessAccounts/index.ctp:10;77
+msgid "Anuluj"
+msgstr ""
+
+#: View/AccessAccounts/index.ctp:12
+msgid "Czy na pewno skasować konto dostępu ?"
+msgstr ""
+
+#: View/AccessAccounts/index.ctp:34
+msgid "Login"
+msgstr ""
+
+#: View/AccessAccounts/index.ctp:35
+msgid "Hasło"
+msgstr ""
+
+#: View/AccessAccounts/index.ctp:36
+msgid "Aktywny"
+msgstr ""
+
+#: View/AccessAccounts/index.ctp:53 View/Surveys/index.ctp:63
+msgid "Edytuj"
+msgstr ""
+
+#: View/AccessAccounts/index.ctp:54 View/Plans/index.ctp:48
+msgid "Skasuj"
+msgstr ""
+
+#: View/AccessAccounts/index.ctp:76 View/SupportTickets/add.ctp:23
+msgid "Zapisz"
+msgstr ""
+
+#: View/Architects/edit.ctp:14 View/Architects/edit_admin.ctp:14
+#: View/Panoramas/edit.ctp:23 View/Plans/add.ctp:13 View/Plans/edit.ctp:13
+#: View/Profile/index.ctp:24;37 View/ProjectComponents/add.ctp:11
+#: View/Projects/edit.ctp:18;40;78 View/Projects/index.ctp:19
+#: View/SlideshowProjectComponents/edit.ctp:25 View/Users/index.ctp:34
+#: View/Walk3ds/edit.ctp:23
+msgid "name"
+msgstr ""
+
+#: View/Architects/edit.ctp:15 View/Architects/edit_admin.ctp:15
+#: View/Invoices/add.ctp:46;59
+msgid "address"
+msgstr ""
+
+#: View/Architects/edit.ctp:16 View/Architects/edit_admin.ctp:16
+#: View/Invoices/add.ctp:34;55
+msgid "nip"
+msgstr ""
+
+#: View/Architects/edit.ctp:17 View/Architects/edit_admin.ctp:17
+#: View/Invoices/add.ctp:38;56
+msgid "regon"
+msgstr ""
+
+#: View/Architects/edit.ctp:18 View/Architects/edit_admin.ctp:18
+msgid "phone"
+msgstr ""
+
+#: View/Architects/edit.ctp:19 View/Architects/edit_admin.ctp:19
+#: View/Architects/public_register.ctp:30 View/Profile/index.ctp:28
+msgid "country"
+msgstr ""
+
+#: View/Architects/edit.ctp:20 View/Architects/edit_admin.ctp:20
+msgid "alias"
+msgstr ""
+
+#: View/Architects/edit.ctp:23 View/Architects/edit_admin.ctp:24
+#: View/Architects/public_register.ctp:27
+msgid "company name"
+msgstr ""
+
+#: View/Architects/edit.ctp:24 View/Architects/edit_admin.ctp:25
+msgid "tax identification number"
+msgstr ""
+
+#: View/Architects/edit.ctp:26 View/Architects/edit_admin.ctp:27
+#: View/Orders/index.ctp:66 View/Plans/edit.ctp:21 View/Profile/user.ctp:15
+#: View/SupportTickets/index.ctp:66 View/Surveys/edit.ctp:100
+msgid "save"
+msgstr ""
+
+#: View/Architects/edit_admin.ctp:21
+msgid "valid to"
+msgstr ""
+
+#: View/Architects/index.ctp:25 View/Surveys/index.ctp:44
+msgid "Nazwa"
+msgstr ""
+
+#: View/Architects/index.ctp:26
+msgid "Nip"
+msgstr ""
+
+#: View/Architects/index.ctp:36
+msgid "edytuj"
+msgstr ""
+
+#: View/Architects/index.ctp:37 View/Surveys/edit.ctp:61
+msgid "delete"
+msgstr ""
+
+#: View/Architects/public_register.ctp:15;45 View/Elements/footer_public.ctp:45
+#: View/Elements/header_public.ctp:56 View/Users/public_login.ctp:15
+msgid "Sign up"
+msgstr ""
+
+#: View/Architects/public_register.ctp:25
+msgid "account type"
+msgstr ""
+
+#: View/Architects/public_register.ctp:29
+msgid "account display name"
+msgstr ""
+
+#: View/Architects/public_register.ctp:42 View/Elements/header_public.ctp:51
+#: View/Profile/index.ctp:8 View/Users/add.ctp:13 View/Users/index.ctp:35
+#: View/Users/public_login.ctp:11 View/Users/public_register.ctp:14
+#: View/Users/public_reset_password.ctp:27
+msgid "email"
+msgstr ""
+
+#: View/Architects/public_register.ctp:44
+msgid "confirm your password"
+msgstr ""
+
+#: View/Architects/public_register_success.ctp:3
+msgid ""
+"Registration was successful. An email has been sent to your email address. "
+"Follow its instructions to activate your account."
+msgstr ""
+
+#: View/Elements/access_accounts_navigation.ctp:3
+msgid "Utwórz konto <br/> dostępu"
+msgstr ""
+
+#: View/Elements/access_accounts_navigation.ctp:5
+#: View/Elements/errors_navigation.ctp:4
+msgid "Lista"
+msgstr ""
+
+#: View/Elements/errors_navigation.ctp:8
+msgid "Błędy aplikacji mobilnej"
+msgstr ""
+
+#: View/Elements/errors_navigation.ctp:12
+msgid "Błędy systemu"
+msgstr ""
+
+#: View/Elements/errors_navigation.ctp:16
+msgid "Błędy importu plików"
+msgstr ""
+
+#: View/Elements/footer_public.ctp:10
+msgid "Home"
+msgstr ""
+
+#: View/Elements/footer_public.ctp:13 View/Elements/header_public.ctp:23
+#: View/Pages/public_home.ctp:61
+msgid "How it works"
+msgstr ""
+
+#: View/Elements/footer_public.ctp:16 View/Elements/header_public.ctp:26
+#: View/Pages/public_home.ctp:74
+msgid "Showcase"
+msgstr ""
+
+#: View/Elements/footer_public.ctp:19 View/Elements/header_public.ctp:29
+#: View/Pages/public_home.ctp:95
+msgid "Features"
+msgstr ""
+
+#: View/Elements/footer_public.ctp:26
+msgid "Terms"
+msgstr ""
+
+#: View/Elements/footer_public.ctp:29
+msgid "Privacy"
+msgstr ""
+
+#: View/Elements/footer_public.ctp:32 View/Pages/public_help.ctp:7
+msgid "Help"
+msgstr ""
+
+#: View/Elements/footer_public.ctp:35
+msgid "FAQ"
+msgstr ""
+
+#: View/Elements/footer_public.ctp:42 View/Elements/header_public.ctp:19;40;53
+#: View/Users/public_login.ctp:13
+msgid "Sign in"
+msgstr ""
+
+#: View/Elements/footer_public.ctp:48
+msgid "Grant"
+msgstr ""
+
+#: View/Elements/footer_public.ctp:69
+msgid "GRANTS FOR INNOVATION"
+msgstr ""
+
+#: View/Elements/header_public.ctp:55 View/Users/public_login.ctp:14
+msgid "Forgot my password"
+msgstr ""
+
+#: View/Elements/invoices_navigation.ctp:3
+msgid "Utwórz fakturę"
+msgstr ""
+
+#: View/Elements/invoices_navigation.ctp:4
+msgid "Lista faktur"
+msgstr ""
+
+#: View/Elements/orders_navigation.ctp:3
+msgid "Utwórz zamówienie"
+msgstr ""
+
+#: View/Elements/orders_navigation.ctp:4
+msgid "Lista zamówień"
+msgstr ""
+
+#: View/Elements/plans_navigation.ctp:4
+msgid "Utwórz plan"
+msgstr ""
+
+#: View/Elements/plans_navigation.ctp:8
+msgid "Lista planów"
+msgstr ""
+
+#: View/Elements/profile_navigation.ctp:3
+msgid "Details"
+msgstr ""
+
+#: View/Elements/profile_navigation.ctp:5
+msgid "Edit my account"
+msgstr ""
+
+#: View/Elements/profile_navigation.ctp:7
+msgid "Change password"
+msgstr ""
+
+#: View/Elements/profile_navigation.ctp:9
+msgid "Edit architect details"
+msgstr ""
+
+#: View/Elements/projects_navigation.ctp:4
+msgid "Project list"
+msgstr ""
+
+#: View/Elements/support_tickets_navigation.ctp:3
+msgid "Utwórz wątek"
+msgstr ""
+
+#: View/Elements/support_tickets_navigation.ctp:4
+msgid "Lista wątków"
+msgstr ""
+
+#: View/Elements/surveys_navigation.ctp:3
+msgid "Utwórz ankietę"
+msgstr ""
+
+#: View/Elements/surveys_navigation.ctp:4
+msgid "Lista ankiet"
+msgstr ""
+
+#: View/Elements/users_navigation.ctp:4
+msgid "Add user"
+msgstr ""
+
+#: View/Elements/users_navigation.ctp:8
+msgid "User list"
+msgstr ""
+
+#: View/Emails/html/architect_register.ctp:1
+msgid "You have been registered successfully"
+msgstr ""
+
+#: View/Emails/html/architect_register.ctp:2
+msgid "To activate your account click the link below:"
+msgstr ""
+
+#: View/Emails/html/profile_change_password.ctp:2
+msgid "To accept password change click the link below:"
+msgstr ""
+
+#: View/Emails/html/user_add.ctp:1
+msgid "You have been invited to join %s team."
+msgstr ""
+
+#: View/Emails/html/user_add.ctp:2
+msgid "To create your account click the link below:"
+msgstr ""
+
+#: View/Emails/html/user_reset_password.ctp:2
+msgid "To reset your password click the link below:"
+msgstr ""
+
+#: View/ErrorReports/errors_import.ctp:50;99
+#: View/ErrorReports/errors_mobile.ctp:50
+#: View/ErrorReports/errors_system.ctp:50;99
+msgid " support user"
+msgstr ""
+
+#: View/ErrorReports/index.ctp:24
+msgid "report"
+msgstr ""
+
+#: View/ErrorReports/index.ctp:31;37;43;51
+msgid "view"
+msgstr ""
+
+#: View/ErrorReports/view.ctp:4
+msgid "error reports"
+msgstr ""
+
+#: View/ErrorReports/view.ctp:12
+msgid "Error report content"
+msgstr ""
+
+#: View/Errors/error400.ctp:1
+msgid "There is no page"
+msgstr ""
+
+#: View/FbxImport/index.ctp:14
+msgid "Przeciągnij & Upuść FBXa tutaj :)"
+msgstr ""
+
+#: View/FbxImport/index.ctp:18
+msgid "import"
+msgstr ""
+
+#: View/Invoices/add.ctp:21
+msgid "select customer type"
+msgstr ""
+
+#: View/Invoices/add.ctp:27
+msgid "architect"
+msgstr ""
+
+#: View/Invoices/add.ctp:28
+msgid "select architect"
+msgstr ""
+
+#: View/Invoices/add.ctp:42;57
+msgid "customer name"
+msgstr ""
+
+#: View/Invoices/add.ctp:69
+msgid "invoice type"
+msgstr ""
+
+#: View/Invoices/add.ctp:70
+msgid "select invoice type"
+msgstr ""
+
+#: View/Invoices/add.ctp:72
+msgid "fv"
+msgstr ""
+
+#: View/Invoices/add.ctp:73
+msgid "pro-forma"
+msgstr ""
+
+#: View/Invoices/add.ctp:79
+msgid "add invoice element"
+msgstr ""
+
+#: View/Invoices/add.ctp:83
+msgid "invoice element"
+msgstr ""
+
+#: View/Invoices/add.ctp:87 View/Plans/add.ctp:17 View/Plans/edit.ctp:17
+msgid "price netto"
+msgstr ""
+
+#: View/Invoices/add.ctp:93;94
+msgid "VAT"
+msgstr ""
+
+#: View/Invoices/add.ctp:105 View/Plans/add.ctp:18 View/Plans/edit.ctp:18
+msgid "price vat"
+msgstr ""
+
+#: View/Invoices/add.ctp:111 View/Plans/add.ctp:16 View/Plans/edit.ctp:16
+msgid "price brutto"
+msgstr ""
+
+#: View/Invoices/index.ctp:25
+msgid "Klient"
+msgstr ""
+
+#: View/Invoices/index.ctp:26
+msgid "Numer"
+msgstr ""
+
+#: View/Invoices/index.ctp:27 View/Orders/index.ctp:39
+#: View/SupportTickets/index.ctp:39
+msgid "Utworzono"
+msgstr ""
+
+#: View/Invoices/index.ctp:37 View/Orders/index.ctp:51
+#: View/SupportTickets/index.ctp:51 View/Surveys/index.ctp:64
+msgid "Podgląd"
+msgstr ""
+
+#: View/Layouts/default.ctp:38
+msgid "Start"
+msgstr ""
+
+#: View/Layouts/default.ctp:39
+msgid "Projects"
+msgstr "Projekty"
+
+#: View/Layouts/default.ctp:40
+msgid "Users"
+msgstr "Użytkownicy"
+
+#: View/Layouts/default.ctp:41
+msgid "Architects"
+msgstr "Architekci"
+
+#: View/Layouts/default.ctp:42
+msgid "Access accounts"
+msgstr "Konta dostępu"
+
+#: View/Layouts/default.ctp:44
+msgid "Errors"
+msgstr "Błędy"
+
+#: View/Layouts/default.ctp:45
+msgid "Statistics"
+msgstr "Statystyki"
+
+#: View/Layouts/default.ctp:46
+msgid "Invoices"
+msgstr "Faktury"
+
+#: View/Layouts/default.ctp:47
+msgid "Plans"
+msgstr "Plany"
+
+#: View/Layouts/default.ctp:48
+msgid "Orders"
+msgstr "Zamówienia"
+
+#: View/Layouts/default.ctp:51
+msgid "Support"
+msgstr "Wsparcie"
+
+#: View/Layouts/default.ctp:53
+msgid "Sign out"
+msgstr "Wyloguj"
+
+#: View/LinkProjectComponents/edit.ctp:4
+#: View/SlideshowProjectComponents/edit.ctp:4
+msgid "project"
+msgstr ""
+
+#: View/LinkProjectComponents/edit.ctp:22
+msgid "url address"
+msgstr ""
+
+#: View/LinkProjectComponents/edit.ctp:23 View/Panoramas/edit.ctp:24
+#: View/Projects/edit.ctp:19 View/SlideshowProjectComponents/edit.ctp:33
+#: View/Users/index.ctp:84 View/Walk3ds/edit.ctp:24
+msgid "Save"
+msgstr ""
+
+#: View/Orders/index.ctp:8 View/Plans/index.ctp:8
+#: View/SupportTickets/index.ctp:8 View/Surveys/edit.ctp:28
+#: View/Surveys/index.ctp:7
+msgid "yes"
+msgstr ""
+
+#: View/Orders/index.ctp:10;67 View/Plans/index.ctp:10
+#: View/SupportTickets/index.ctp:10;67 View/Surveys/edit.ctp:30
+#: View/Surveys/index.ctp:9
+msgid "cancel"
+msgstr ""
+
+#: View/Orders/index.ctp:12 View/SupportTickets/index.ctp:12
+#: View/Surveys/index.ctp:11 View/Users/index.ctp:12
+msgid "Are you sure you want to delete this user?"
+msgstr ""
+
+#: View/Orders/index.ctp:34 View/SupportTickets/index.ctp:34
+msgid "Numer wątku"
+msgstr ""
+
+#: View/Orders/index.ctp:35 View/SupportTickets/add.ctp:18
+#: View/SupportTickets/index.ctp:35
+msgid "Tytuł"
+msgstr ""
+
+#: View/Orders/index.ctp:36 View/SupportTickets/index.ctp:36
+msgid "Uzytkownik"
+msgstr ""
+
+#: View/Orders/index.ctp:37 View/SupportTickets/add.ctp:17
+#: View/SupportTickets/index.ctp:37
+msgid "Kategoria"
+msgstr ""
+
+#: View/Orders/index.ctp:38 View/SupportTickets/index.ctp:38
+msgid "Status"
+msgstr ""
+
+#: View/Orders/index.ctp:65 View/Profile/index.ctp:16
+#: View/SupportTickets/index.ctp:65 View/Users/add.ctp:14
+#: View/Users/index.ctp:36;83 View/Users/public_register.ctp:15
+msgid "role"
+msgstr ""
+
+#: View/Orders/view.ctp:8 View/SupportTickets/view.ctp:8
+msgid "Zgłoszenie"
+msgstr ""
+
+#: View/Orders/view.ctp:27 View/Orders/view_admin.ctp:22
+#: View/SupportTickets/view.ctp:27 View/SupportTickets/view_admin.ctp:22
+msgid "message"
+msgstr ""
+
+#: View/Orders/view.ctp:34 View/SupportTickets/view.ctp:34
+msgid "send message"
+msgstr ""
+
+#: View/Orders/view.ctp:49 View/SupportTickets/view.ctp:49
+msgid "close ticket"
+msgstr ""
+
+#: View/Orders/view.ctp:54 View/Orders/view_admin.ctp:29
+#: View/SupportTickets/view.ctp:54 View/SupportTickets/view_admin.ctp:29
+msgid "messages"
+msgstr ""
+
+#: View/Orders/view_admin.ctp:8 View/SupportTickets/view_admin.ctp:8
+msgid "ticket"
+msgstr ""
+
+#: View/Orders/view_admin.ctp:19 View/SupportTickets/view_admin.ctp:19
+msgid "category"
+msgstr ""
+
+#: View/Orders/view_admin.ctp:20 View/SupportTickets/view_admin.ctp:20
+msgid "status"
+msgstr ""
+
+#: View/Orders/view_admin.ctp:25 View/SupportTickets/view_admin.ctp:25
+msgid "update"
+msgstr ""
+
+#: View/Pages/public_home.ctp:64
+msgid "Find out more"
+msgstr ""
+
+#: View/Pages/public_home.ctp:81
+msgid "More"
+msgstr ""
+
+#: View/Pages/public_home.ctp:102
+msgid "Automatic synchronization of data on mobile devices"
+msgstr ""
+
+#: View/Pages/public_home.ctp:115
+msgid "Project and user management modules"
+msgstr ""
+
+#: View/Pages/public_home.ctp:122
+msgid "Intuitive and user-friendly interface"
+msgstr ""
+
+#: View/Pages/public_home.ctp:132
+msgid "Automaticaly updated presentations"
+msgstr ""
+
+#: View/Pages/public_home.ctp:140
+msgid "Ability to create Panorama 3D presentations"
+msgstr ""
+
+#: View/Pages/public_home.ctp:148
+msgid "Ability to create Walk 3D presentations"
+msgstr ""
+
+#: View/Pages/public_home.ctp:157
+msgid ""
+"System of automatic conversion of presentation files to all supported "
+"platforms"
+msgstr ""
+
+#: View/Pages/public_home.ctp:165
+msgid "Permanent technical support"
+msgstr ""
+
+#: View/Pages/public_privacy_policy.ctp:7
+msgid "Privacy Policy"
+msgstr ""
+
+#: View/Pages/public_rules.ctp:7
+msgid "Terms of Service"
+msgstr ""
+
+#: View/Pages/public_unauthorized.ctp:2
+msgid "This is not the page you are looking for."
+msgstr ""
+
+#: View/Panoramas/edit.ctp:4 View/Walk3ds/edit.ctp:4
+msgid "Back to project"
+msgstr ""
+
+#: View/Panoramas/edit.ctp:28
+msgid "Panorama"
+msgstr ""
+
+#: View/Plans/add.ctp:14 View/Plans/edit.ctp:14
+msgid "description"
+msgstr ""
+
+#: View/Plans/add.ctp:15 View/Plans/edit.ctp:15
+msgid "interval"
+msgstr ""
+
+#: View/Plans/add.ctp:19 View/Plans/edit.ctp:19
+msgid "vat value"
+msgstr ""
+
+#: View/Plans/index.ctp:12
+msgid "delete this plan ?"
+msgstr ""
+
+#: View/Plans/index.ctp:34
+msgid "Nazwa planu"
+msgstr ""
+
+#: View/Plans/index.ctp:35
+msgid "cena brutto"
+msgstr ""
+
+#: View/Plans/index.ctp:36
+msgid "cena netto"
+msgstr ""
+
+#: View/Plans/index.ctp:47
+msgid "edit"
+msgstr ""
+
+#: View/Plans/index.ctp:64
+msgid "Uprawnienia"
+msgstr ""
+
+#: View/Plans/index.ctp:65 View/ProjectComponents/add.ctp:13
+msgid "zapisz"
+msgstr ""
+
+#: View/Plans/index.ctp:66
+msgid "anuluj"
+msgstr ""
+
+#: View/Profile/change_password.ctp:13
+#: View/Users/public_reset_password_confirm.ctp:12
+msgid "new password"
+msgstr ""
+
+#: View/Profile/change_password.ctp:14
+#: View/Users/public_reset_password_confirm.ctp:13
+msgid "repeat new password"
+msgstr ""
+
+#: View/Profile/change_password.ctp:15 View/Users/public_reset_password.ctp:28
+msgid "send"
+msgstr ""
+
+#: View/Profile/change_password_sent.ctp:5
+msgid ""
+"An email has been sent to your email address. Follow its instructions to "
+"change your password."
+msgstr ""
+
+#: View/Profile/index.ctp:5
+msgid "account information"
+msgstr ""
+
+#: View/Profile/index.ctp:12 View/Profile/user.ctp:14
+#: View/Users/public_register.ctp:16
+msgid "display name"
+msgstr ""
+
+#: View/Profile/index.ctp:21
+msgid "architect information"
+msgstr ""
+
+#: View/Profile/index.ctp:34
+msgid "company information"
+msgstr ""
+
+#: View/ProjectComponents/add.ctp:12
+msgid "component type"
+msgstr ""
+
+#: View/Projects/edit.ctp:23
+msgid "Locations"
+msgstr ""
+
+#: View/Projects/edit.ctp:27
+msgid "Components"
+msgstr ""
+
+#: View/Projects/edit.ctp:29
+msgid "Add component"
+msgstr ""
+
+#: View/Projects/edit.ctp:41;79 View/Surveys/edit.ctp:54
+msgid "type"
+msgstr ""
+
+#: View/Projects/edit.ctp:42 View/Templates/locations.ctp:69
+#: View/Templates/panorama_editor.ctp:35 View/Templates/walk3d_editor.ctp:35
+#: View/Users/add.ctp:15
+msgid "Add"
+msgstr ""
+
+#: View/Projects/edit.ctp:43;54 View/Projects/index.ctp:21
+#: View/Templates/locations.ctp:28;70 View/Templates/panorama_editor.ctp:36
+#: View/Templates/walk3d_editor.ctp:36 View/Users/index.ctp:10;85
+msgid "Cancel"
+msgstr ""
+
+#: View/Projects/edit.ctp:52 View/Users/index.ctp:8
+msgid "Yes"
+msgstr ""
+
+#: View/Projects/edit.ctp:56
+msgid "Are you sure you want to delete this component?"
+msgstr ""
+
+#: View/Projects/edit.ctp:88 View/Users/index.ctp:66
+msgid "Edit"
+msgstr ""
+
+#: View/Projects/edit.ctp:89 View/Users/index.ctp:67
+msgid "Delete"
+msgstr ""
+
+#: View/Projects/index.ctp:8
+msgid "Create project"
+msgstr ""
+
+#: View/Projects/index.ctp:20 View/Templates/locations.ctp:24
+msgid "Create"
+msgstr ""
+
+#: View/SlideshowProjectComponents/edit.ctp:28
+msgid "files"
+msgstr ""
+
+#: View/SlideshowProjectComponents/edit.ctp:29
+msgid "Click or drop files here"
+msgstr ""
+
+#: View/SupportTickets/add.ctp:20
+msgid "Wiadomość"
+msgstr ""
+
+#: View/Surveys/add.ctp:13 View/Surveys/edit.ctp:17
+msgid "title"
+msgstr ""
+
+#: View/Surveys/add.ctp:16 View/Surveys/edit.ctp:20
+msgid "select survey type"
+msgstr ""
+
+#: View/Surveys/add.ctp:20 View/Surveys/edit.ctp:53;60;74
+msgid "question"
+msgstr ""
+
+#: View/Surveys/add.ctp:23 View/Surveys/edit.ctp:77
+msgid "select question type"
+msgstr ""
+
+#: View/Surveys/add.ctp:39 View/Surveys/edit.ctp:93
+msgid "type value and press ENTER"
+msgstr ""
+
+#: View/Surveys/edit.ctp:32
+msgid "Are you sure you want to delete this question?"
+msgstr ""
+
+#: View/Surveys/index.ctp:45
+msgid "Aktywność"
+msgstr ""
+
+#: View/Surveys/index.ctp:46
+msgid "Utworzona"
+msgstr ""
+
+#: View/Surveys/view.ctp:9
+msgid "survey results:"
+msgstr ""
+
+#: View/Surveys/view.ctp:55
+msgid "send answer"
+msgstr ""
+
+#: View/Templates/locations.ctp:7
+msgid "Create Panorama3D"
+msgstr ""
+
+#: View/Templates/locations.ctp:11
+msgid "Create Walk3D"
+msgstr ""
+
+#: View/Templates/locations.ctp:18
+msgid "Change image"
+msgstr ""
+
+#: View/Templates/locations.ctp:34;41
+msgid "Edit selected location"
+msgstr ""
+
+#: View/Templates/locations.ctp:68 View/Templates/panorama_editor.ctp:34
+#: View/Templates/walk3d_editor.ctp:34
+msgid "Click or drop file here"
+msgstr ""
+
+#: View/Templates/panorama_editor.ctp:7
+msgid "Upload image"
+msgstr ""
+
+#: View/Templates/walk3d_editor.ctp:7
+msgid "Upload model"
+msgstr ""
+
+#: View/Users/index.ctp:37
+msgid "confirmed"
+msgstr ""
+
+#: View/Users/index.ctp:38
+msgid "active"
+msgstr ""
+
+#: View/Users/public_register.ctp:18
+msgid "repeat password"
+msgstr ""
+
+#: View/Users/public_register.ctp:19
+msgid "register"
+msgstr ""
+
+#: View/Users/public_register_success.ctp:3
+msgid "Registration was successful. Good luck and have fun!"
+msgstr ""
+
+#: View/Users/public_reset_password.ctp:15
+msgid "Przypomnienie hasła"
+msgstr ""
+
+#: View/Users/public_reset_password_confirm.ctp:14
+msgid "change"
+msgstr ""
+
+#: View/Users/public_reset_password_sent.ctp:3
+msgid ""
+"An email was sent to your email address. Follow its instructions to reset "
+"your password."
+msgstr ""
+
+#: View/Walk3ds/edit.ctp:28
+msgid "Walk3D"
+msgstr ""
